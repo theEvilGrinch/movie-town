@@ -1,0 +1,9 @@
+<article class="box story">
+	<div class="box_in">
+		<center>
+			<h1 class="title">{description}</h1>
+		</center>
+		<div class="text">{static}</div>
+		{pages}
+	</div>
+</article>

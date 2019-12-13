@@ -1,0 +1,39 @@
+@main-color: #31a8cb;
+@main-color-dark: #303547;
+@main-color-dark-grey: #2d3542;
+@main-color-gray: #4a586e;
+a {
+	color: @main-color;
+	text-decoration: underline;
+	transition: color 0.2s;
+	&:hover {
+		color: darken(@main-color, 15%);
+		text-decoration: none;
+	}
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Open Sans Semibold", "Arial", "sans-serif";
+	text-transform: uppercase;
+}
+b, strong {
+	font-family: "Open Sans Semibold", "Arial", "sans-serif";
+}
+h2 {
+	font-size: 20px;
+	text-align: center;
+}
+p {
+	margin: 0 16px 4px 16px;
+	text-indent: 16px;
+}
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+.tags_more {
+	display: none;
+}

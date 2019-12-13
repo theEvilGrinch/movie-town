@@ -1,0 +1,49 @@
+{
+	"name": "movie-town.ru",
+	"version": "1.0.0",
+	"description": "My New online-cinema site",
+	"main": "index.php",
+	"scripts": {
+		"Watch": "sudo /opt/lampp/lampp start && sudo cp ~/Documents/localHOSTS /etc/hosts && gulp watch",
+		"stop_Watch": "sudo /opt/lampp/lampp stop && sudo cp ~/Documents/rightHOSTS /etc/hosts",
+		"Build": "gulp build",
+		"Deploy": "gulp rsyncDeploy",
+		"optimizeImg": "gulp optimizeImg && gulp copyOptimizedImg"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/AVD-SF/movie-town.ru.git"
+	},
+	"author": "Andrew Dmitriev <mail@movie-town.ru> (movie-town.ru)",
+	"bugs": {
+		"url": "https://github.com/AVD-SF/movie-town.ru/issues"
+	},
+	"homepage": "https://movie-town.ru",
+	"license": "Copyright Andrew Dmitriev 2019",
+	"devDependencies": {
+		"browser-sync": "^2.26.7",
+		"del": "^5.1.0",
+		"gulp": "^4.0.2",
+		"gulp-changed": "^4.0.1",
+		"gulp-clean-css": "^4.2.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-contrib-copy": "^0.1.3",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-less": "^4.0.1",
+		"gulp-rsync": "0.0.8",
+		"gulp-tinypng": "^1.0.2",
+		"gulp-tinypng-compress": "^1.2.5",
+		"gulp-uglify": "^3.0.2",
+		"gulp-util": "^3.0.8",
+		"gulp-webp": "^4.0.1",
+		"pump": "^3.0.0",
+		"vinyl-ftp": "^0.6.1"
+	},
+	"dependencies": {
+		"lazysizes": "^5.2.0-beta1",
+		"lightbox2": "^2.11.1",
+		"normalize.css": "^8.0.1",
+		"npm": "^6.13.1"
+	}
+}

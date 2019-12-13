@@ -1,0 +1,13 @@
+<div class="pagination">
+	<span class="navigation__prev-link" title="Предыдущая страница">
+		[prev-link]
+		Предыдущая
+		[/prev-link]
+	</span>
+	<span class="navigation__pages">{pages}</span>
+	<span class="navigation__next-link" title="Следующая страница">
+		[next-link]
+		Следующая
+		[/next-link]
+	</span>
+</div>
