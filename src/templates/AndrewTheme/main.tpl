@@ -43,20 +43,16 @@
 	<h1>Онлайн кинотеатр Мувитаун</h1>
 	[/available]
 
-	<a rel="nofollow" href="/" class="main-header__logo-link" title="Перейти на главную страницу">
-		<span>На главную</span>
-	</a>
+	<a rel="nofollow" href="/" class="main-header__logo-link" title="Перейти на главную страницу"> <span>На главную</span> </a>
 
 	<form id="q_search" method="post">
 		<div class="q_search">
-			<label for="story">Поиск по сайту</label>
-			<input id="story" name="story" placeholder="Поиск по сайту..." type="search">
+			<label for="story">Поиск по сайту</label> <input id="story" name="story" placeholder="Поиск по сайту..." type="search">
 			<button class="q_search_btn" type="submit" title="Найти">
 				<span class="title_hide">Найти</span>
 			</button>
 		</div>
-		<input type="hidden" name="do" value="search">
-		<input type="hidden" name="subaction" value="search">
+		<input type="hidden" name="do" value="search"> <input type="hidden" name="subaction" value="search">
 	</form>
 
 	<nav class="main-header__menu">
@@ -76,8 +72,7 @@
 	<section class="main-header__slider">
 		<h2>Новинки кино</h2>
 		<!--noindex-->
-		<span class="main-header__slider-arrow-left" title="Предыдущий слайд"></span>
-		<span class="main-header__slider-arrow-right" title="Следующий слайд"></span>
+		<span class="main-header__slider-arrow-left" title="Предыдущий слайд"></span> <span class="main-header__slider-arrow-right" title="Следующий слайд"></span>
 		<!--/noindex-->
 		<ul class="main-header__slider-wrapper">
 			{custom category="9" template="main-header__slider" order="date" sort="desc" from="0" limit="12" cache="yes"}
@@ -93,8 +88,7 @@
 		<div class="main__a-ads-wrapper">
 			<iframe data-aa="1266774" src="//acceptable.a-ads.com/1266774?size=Adaptive&title_color=31a8cb&link_color=31a8cb" scrolling="no" allowtransparency="true"></iframe>
 		</div>
-		<!--/noindex-->
-		[available=main]
+		<!--/noindex-->		[available=main]
 		<h2>Последние добавленные на сайте</h2>
 		[/available]
 
@@ -114,21 +108,11 @@
 		{speedbar}
 		[/not-available]
 
-		[tags=биография]<h2>Жанр биография</h2>[/tags]
-		[tags=боевик]<h2>Жанр боевик</h2>[/tags]
-		[tags=детектив]<h2>Жанр детектив</h2>[/tags]
-		[tags=драма]<h2>Жанр драма</h2>[/tags]
-		[tags=комедия]<h2>Жанр комедия</h2>[/tags]
-		[tags=приключения]<h2>Жанр приключения</h2>[/tags]
-		[tags=триллер]<h2>Жанр триллер</h2>[/tags]
-		[tags=ужасы]<h2>Жанр ужасы</h2>[/tags]
-		[tags=фантастика]<h2>Жанр фантастика</h2>[/tags]
+		[tags=биография]<h2>Жанр биография</h2>[/tags] [tags=боевик]<h2>Жанр боевик</h2>[/tags] [tags=детектив]<h2>Жанр детектив</h2>[/tags] [tags=драма]<h2>Жанр драма</h2>[/tags] [tags=комедия]<h2>Жанр комедия</h2>[/tags] [tags=приключения]<h2>Жанр приключения</h2>[/tags] [tags=триллер]<h2>Жанр триллер</h2>[/tags] [tags=ужасы]<h2>Жанр ужасы</h2>[/tags] [tags=фантастика]<h2>Жанр фантастика</h2>[/tags]
 
-		<!--noindex-->
-		[not-available=static|search|showfull]
+		<!--noindex-->		[not-available=static|search|showfull]
 		<div class="main-content__sort-wrapper">
-			<span class="main-content__sort-label">Тип сортировки (Фильтр)</span>
-			[sort]{sort}[/sort]
+			<span class="main-content__sort-label">Тип сортировки (Фильтр)</span> [sort]{sort}[/sort]
 		</div>
 		[/not-available]
 		<!--/noindex-->
@@ -173,8 +157,7 @@
 	<div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,twitter,reddit,linkedin,telegram" data-size="m"></div>
 	[/not-available]
 	<p>
-		2019 Andrew Dmitriev | Онлайн кинотеатр Киногородок (Мувитаун) | movie-town.ru
-	</p>
+		2019 Онлайн кинотеатр Киногородок (Мувитаун) | movie-town.ru </p>
 	<a rel="nofollow" href="#top" class="go-to-top"></a>
 </footer>
 

@@ -13,54 +13,51 @@
 	<h4 class="shortstory__film-info-header">Краткие данные картины {title}</h4>
 	<ul class="shortstory__film-info-list">
 		<li>
-			Оригинальное название: [xfgiven_origin-name-clean][xfvalue_origin-name-clean][/xfgiven_origin-name-clean]
+			<b>Оригинальное название:</b> [xfgiven_origin-name-clean][xfvalue_origin-name-clean][/xfgiven_origin-name-clean]
 		</li>
 		<li>
-			Год выхода: [xfgiven_year][xfvalue_year][/xfgiven_year]
+			<b>Год выхода:</b> [xfgiven_year][xfvalue_year][/xfgiven_year]
 		</li>
 		<li>
-			<span>Рейтинг:</span>
-			<img class="shortstory__film-info-kp-rating-img" src="https://rating.kinopoisk.ru/[xfgiven_id-kinopoiska][xfvalue_id-kinopoiska][/xfgiven_id-kinopoiska].gif" alt="Рейтинг Кинопоиска">
-			[catlist=11]
-			<img src="https://u.myshows.me/r/[xfgiven_id-myshows.me][xfvalue_id-myshows.me][/xfgiven_id-myshows.me].png" alt="Рейтинг myshows.me">
-			[/catlist]
+			<span><b>Рейтинг:</b></span> <img class="fullstory__film-info-kp-rating-img" src="https://rating.kinopoisk.ru/[xfgiven_id-kinopoiska][xfvalue_id-kinopoiska][/xfgiven_id-kinopoiska].gif" alt="Рейтинг Кинопоиска"> [catlist=11] <img src="https://u.myshows.me/r/[xfgiven_id-myshows.me][xfvalue_id-myshows.me][/xfgiven_id-myshows.me].png" alt="Рейтинг myshows.me"> [/catlist]
 		</li>
 		<li>
-			[rating-type-4]
-			<span>Голосовать:</span>
-			<span class="shortstory__film-info-user-like">
-				[rating-plus]Лайк {likes}[/rating-plus]
-			</span>
-			<span class="shortstory__film-info-user-dislike">
-				[rating-minus]Дизлайк {dislikes}[/rating-minus]
-			</span>
-			[/rating-type-4]
+			[rating-type-4] <span><b>Голосовать:</b></span> <span class="fullstory__film-info-user-like">
+				[rating-plus]<b>Лайк {likes}</b>[/rating-plus]
+			</span> <span class="fullstory__film-info-user-dislike">
+				[rating-minus]<b>Дизлайк {dislikes}</b>[/rating-minus]
+			</span> [/rating-type-4]
 		</li>
 		<li>
-			Категрия: {link-category}
+			<b>Категрия: {link-category}</b>
 		</li>
 		<li>
-			Жанры: {tags}
+			<b>Жанры: {tags}</b>
 		</li>
 		<li>
-			Режиссёр: [xfgiven_producer][xfvalue_producer][/xfgiven_producer]
+			<b>Режиссёр:</b> [xfgiven_producer][xfvalue_producer][/xfgiven_producer]
 		</li>
 		<li>
-			В ролях: [xfgiven_actors][xfvalue_actors][/xfgiven_actors]
+			<b>В ролях:</b> [xfgiven_actors][xfvalue_actors][/xfgiven_actors]
 		</li>
 		<li>
-			Длительность[catlist=11] серии[/catlist]: [xfgiven_duration][xfvalue_duration][/xfgiven_duration]
+			<b>Длительность</b>[catlist=11] <b>серии</b>[/catlist]<b>:</b> [xfgiven_duration][xfvalue_duration][/xfgiven_duration]
+		</li>
+		<li>
+			<div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,twitter,reddit,linkedin,telegram" data-size="m"></div>
+		</li>
+		<li class="fullstory__film-info-list-datePublished">
+			Дата добавления:
+			<time datetime="{date=Y-m-d}" itemprop="datePublished">{date}</time>
 		</li>
 	</ul>
 	<section class="shortstory__film-description clearfix">
 		<h4>Краткое описание картины {title}</h4>
 		<p>
-        {short-story limit="275"} ...
+			{short-story limit="275"} ...
 		</p>
 	</section>
 	<div class="shortstory__bottom-film-link-wrapper">
-		<a href="{full-link}" class="shortstory__bottom-film-link">
-			Смотреть / Скачать / Слушать саундтреки
-		</a>
+		<a href="{full-link}" class="shortstory__bottom-film-link"> Смотреть / Скачать / Слушать саундтреки </a>
 	</div>
 </article>
