@@ -839,7 +839,6 @@ if ($dle_module !== 'main' && $dle_module !== 'cat' && $dle_module !== 'tags') {
 	<meta charset="{$config['charset']}">
 	<title>{$metatags['title']}</title>
 	<meta name="description" property="og:description" content="{$metatags['description']}">
-	<meta name="keywords" content="{$metatags['keywords']}">
 	<meta property="og:locale" content="ru_RU">
 	<meta property="og:site_name" content="movie-town.ru">
 	<meta property="og:url" content="{$canonical}">
@@ -866,7 +865,6 @@ if ($dle_module === 'cat') {
 	<meta charset="{$config['charset']}">
 	<title>{$metatags['title']}</title>
 	<meta name="description" property="og:description" content="{$metatags['description']}">
-	<meta name="keywords" content="{$metatags['keywords']}">
 	<meta property="og:locale" content="ru_RU">
 	<meta property="og:site_name" content="movie-town.ru">
 	<meta property="og:url" content="{$canonical}">
@@ -911,7 +909,6 @@ if ($dle_module === 'main') {
 	<meta charset="{$config['charset']}">
 	<title>{$metatags['title']}</title>
 	<meta name="description" property="og:description" content="{$metatags['description']}">
-	<meta name="keywords" content="{$metatags['keywords']}">
 	<meta property="og:locale" content="ru_RU">
 	<meta property="og:site_name" content="movie-town.ru">
 	<meta property="og:url" content="{$canonical}">
