@@ -1,3 +1,4 @@
+<h1>{title}</h1>
 <article class="fullstory" itemscope itemtype="http://schema.org/Article" itemprop="articleBody">
 	<h3 itemprop="headline">{title}</h3>
 	<picture>

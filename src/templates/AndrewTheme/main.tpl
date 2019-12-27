@@ -88,7 +88,7 @@
 		<div class="main__a-ads-wrapper">
 			<iframe data-aa="1266774" src="//acceptable.a-ads.com/1266774?size=Adaptive&title_color=31a8cb&link_color=31a8cb" scrolling="no" allowtransparency="true"></iframe>
 		</div>
-		<!--/noindex-->		[available=main]
+		<!--/noindex-->    [available=main]
 		<h2>Последние добавленные на сайте</h2>
 		[/available]
 
@@ -110,12 +110,12 @@
 
 		[tags=биография]<h2>Жанр биография</h2>[/tags] [tags=боевик]<h2>Жанр боевик</h2>[/tags] [tags=детектив]<h2>Жанр детектив</h2>[/tags] [tags=драма]<h2>Жанр драма</h2>[/tags] [tags=комедия]<h2>Жанр комедия</h2>[/tags] [tags=приключения]<h2>Жанр приключения</h2>[/tags] [tags=триллер]<h2>Жанр триллер</h2>[/tags] [tags=ужасы]<h2>Жанр ужасы</h2>[/tags] [tags=фантастика]<h2>Жанр фантастика</h2>[/tags]
 
-		<!--noindex-->		[not-available=static|search|showfull]
+		[not-available=static|search|showfull]
+		<!--noindex-->
 		<div class="main-content__sort-wrapper">
 			<span class="main-content__sort-label">Тип сортировки (Фильтр)</span> [sort]{sort}[/sort]
 		</div>
-		[/not-available]
-		<!--/noindex-->
+		<!--/noindex-->		[/not-available]
 		{content}
 	</main>
 
